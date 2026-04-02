@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="stickynotes"
+version="1.0.0"
+displayName="Sticky Notes"
+description='''
+Always-on-top in-game sticky notes overlay.
+Toggle with a keybind, minimize to the side, and edit your notes at any time!
+'''
+authors="You"
+
+[[dependencies.stickynotes]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.221,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.stickynotes]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1,1.22)"
+    ordering="NONE"
+    side="BOTH"
